@@ -9,8 +9,8 @@ public class Find1st2ndMinNum {
 		for(int i=0;i<a.length;i++) {
 			if(a[i]<=fmin) {
 				if(a[i]!=fmin)
-				smin=fmin;
-			fmin=a[i];
+					smin=fmin;
+				fmin=a[i];
 			}
 			else if(smin>a[i]||smin==fmin) {
 				//if(fmin[i]<smin[i])

@@ -7,7 +7,7 @@ public class CountOfWordsInString {
 		String []split=s.split(" ");
 		int count=0;
 		for(int i=0;i<split.length;i++) {
-				count++;
+			count++;
 		}
 		System.out.println("Count words in Given String --->"+count);
 	}
