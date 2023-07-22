@@ -22,6 +22,7 @@ public class PrimeNumbersWithinN {
 		if(n<2) {
 			System.out.println("Prime number Start From Zero(0)");
 		}
+		System.out.println("Prime numbers with in "+n);
 		for(int i=2;i<=n;i++) {
 			boolean b=p.isPrime(i);
 			if (b==true) {
@@ -29,7 +30,7 @@ public class PrimeNumbersWithinN {
 			 prime=i;
 			}
 			if(prime==i) {
-			System.out.println("Prime numbers with in "+n);
+			
 			System.out.println("Count:"+count+" Number is-->"+prime);
 			}
 		}
