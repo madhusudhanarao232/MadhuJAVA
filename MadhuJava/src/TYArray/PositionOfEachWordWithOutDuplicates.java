@@ -10,7 +10,6 @@ public class PositionOfEachWordWithOutDuplicates {
 		LinkedHashSet<String> set=new LinkedHashSet<String>();
 		for (int i = 0; i < split.length; i++) {
 			set.add(split[i]);
-			//System.out.println(split[i]+"---> is in "+(i+1)+" position");
 		}
 		for (String st : set) {
 			for(int i=0;i<split.length;i++) {

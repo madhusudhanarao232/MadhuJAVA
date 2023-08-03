@@ -11,9 +11,7 @@ public class CombinatonOfTwoEle {
 					sum=a[i]+a[j];
 					System.out.println(a[i]+" + "+a[j]+" = "+sum);
 				}
-
 			}
 		}
 	}
-
 }

@@ -1,4 +1,4 @@
-package StringOperations;
+package Intervie_Questions;
 
 public class OutOfRangeException extends ArrayIndexOutOfBoundsException {
 

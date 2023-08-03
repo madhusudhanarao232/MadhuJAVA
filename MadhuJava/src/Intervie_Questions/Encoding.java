@@ -1,4 +1,4 @@
-package StringOperations;
+package Intervie_Questions;
 
 import java.util.Scanner;
 

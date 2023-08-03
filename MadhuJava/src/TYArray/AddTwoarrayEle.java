@@ -15,10 +15,10 @@ public class AddTwoarrayEle {
 
 			} catch (Exception e) {
 				if(b.length<a.length) {
-					System.out.print(a[i]);
+					System.out.print(a[i]+"");
 				}
 				else {
-					System.out.println(b[i]);
+					System.out.println(b[i]+"");
 				}
 			}
 		}

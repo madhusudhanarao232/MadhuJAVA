@@ -3,7 +3,7 @@ package TYArray;
 public class SegregateAlphNumsAndSpcChars {
 
 	public static void main(String[] args) {
-        String s="1b2%a3(t"; // o/p----> 123 bat %(
+        String s="1b2%a3(t";
         String alp=" ";
         String num=" ";
         String spc=" ";
