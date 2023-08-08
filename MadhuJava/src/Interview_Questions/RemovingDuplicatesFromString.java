@@ -1,4 +1,4 @@
-package Intervie_Questions;
+package Interview_Questions;
 
 import java.util.LinkedHashSet;
 
