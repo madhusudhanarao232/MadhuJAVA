@@ -17,8 +17,6 @@ public class AllOopsAbstractDriver extends AllOopsAbstract{
 		all.test();
 		//Calling parent class test(int para)
 		all.test(10);
-		//Calling parent class overRide
-		all.overRide();
 		//Calling sub-class overRide
 		d.overRide();
 		//providing imp for abstract method
