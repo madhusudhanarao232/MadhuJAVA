@@ -5,11 +5,11 @@ public abstract class AllOopsAbstract {
    private String name;
    // No argument constructor
    public AllOopsAbstract() {
-	  this.overRide();
+	 
 	}
    //Parameterized constructor and Intializing var
    public AllOopsAbstract(String name) {
-	   this();
+	
 	   this.name=name;
 	   System.out.println("from super class constructor");
    }
@@ -21,11 +21,11 @@ public abstract class AllOopsAbstract {
    public abstract void demoAbstract(); 
 // method overLoading
    public static void test() {
-	   System.out.println("Loading No Arguments"); 
+	   System.out.println("Over Loading No Arguments"); 
    }
    // method overLoading
    public static void test(int para) {
-	   System.out.println("Loading Int Para"); 
+	   System.out.println("Over Loading Int Para"); 
    }
    // Override concept
    public void overRide() {

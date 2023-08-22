@@ -11,6 +11,8 @@ public class AllOopsAbstractDriver extends AllOopsAbstract{
 		AllOopsAbstract all=new AllOopsAbstractDriver();
 		//down casting
 		AllOopsAbstractDriver d=(AllOopsAbstractDriver)all;
+		
+		//AllOopsAbstractDriver d= new AllOopsAbstractDriver();
 		//Using private var value out side the class by using getter method
 		System.out.println(all.getName());
 		//Calling parent class test()
