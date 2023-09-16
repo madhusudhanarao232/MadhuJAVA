@@ -21,7 +21,7 @@ public class SpecifiedIndexElement{
 				System.out.println(e+" occured");
 			}
 		  }
-	 } 
+	 }   
 	 System.out.println(in+" "+ele);
 	 test();
 	}

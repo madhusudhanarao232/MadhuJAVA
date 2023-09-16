@@ -1,4 +1,5 @@
 package Arrays;
+import java.util.Arrays;
 import java.util.Scanner;
 public class ArrayOperation {
 	public static Scanner sc=new Scanner(System.in);
@@ -64,6 +65,7 @@ public class ArrayOperation {
 			a[j]=temp;
 			i++;j--;
 		}
+		
 		return j;
 	}
 	//4  //Return the count of Even no AND ODD no. count
@@ -105,6 +107,7 @@ public class ArrayOperation {
 		for (int i=0;i<ar.length;i++) {
 			for(int j=2;j<ar[i]/2;j++) {
 				if (ar[i]%j==0) {
+					
 					Count--;
 					break;
 				}
@@ -117,7 +120,7 @@ public class ArrayOperation {
 	{
 		int []c=new int[a.length+b.length];
 		int i=0,j=0;
-		while(i<a.length&&j<b.length) {
+		while(i<a.length&&i<b.length) {
 			c[j++]=a[i];
 			c[j++]=b[i++];
 		}

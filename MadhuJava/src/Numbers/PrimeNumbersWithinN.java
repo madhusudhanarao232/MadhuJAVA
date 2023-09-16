@@ -20,7 +20,7 @@ public class PrimeNumbersWithinN {
 		int n=sc.nextInt();
 		int count=0,prime = 0;
 		if(n<2) {
-			System.out.println("Prime number Start From Zero(0)");
+			System.out.println("Prime number Start From 2");
 		}
 		System.out.println("Prime numbers with in "+n);
 		for(int i=2;i<=n;i++) {

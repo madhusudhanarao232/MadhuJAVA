@@ -4,6 +4,7 @@ public class AllOopsAbstractDriver extends AllOopsAbstract{
 
 	public AllOopsAbstractDriver() {
 		super("Madhu");
+		super.overRide();
 		System.out.println("sub-class Constructor");
 	}
 	public static void main(String[] args) {
@@ -11,8 +12,6 @@ public class AllOopsAbstractDriver extends AllOopsAbstract{
 		AllOopsAbstract all=new AllOopsAbstractDriver();
 		//down casting
 		AllOopsAbstractDriver d=(AllOopsAbstractDriver)all;
-		
-		//AllOopsAbstractDriver d= new AllOopsAbstractDriver();
 		//Using private var value out side the class by using getter method
 		System.out.println(all.getName());
 		//Calling parent class test()
@@ -24,7 +23,7 @@ public class AllOopsAbstractDriver extends AllOopsAbstract{
 		//providing imp for abstract method
 		d.demoAbstract();
 		//callling test2() it will  Calling parent class overRide()
-		d.test2();
+		//d.test2();
 	}
 
 	@Override
@@ -35,7 +34,7 @@ public class AllOopsAbstractDriver extends AllOopsAbstract{
 	public void overRide() {
 		System.out.println("overRiden in Sub class");
 	}
-	public void test2() {
-		super.overRide();
-	}
+//	public void test2() {
+//		super.overRide();
+//	}
 }

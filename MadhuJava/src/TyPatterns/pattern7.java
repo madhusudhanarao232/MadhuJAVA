@@ -15,17 +15,17 @@ public class pattern7 {
 		System.out.println("Enter the number");
 		int n=sc.nextInt();
 		//-----------------------------------------------------------------------------------		
-		//		for(int i=n;i>=0;i--) {
-		//			for(int j=n;j>0;j--) {
-		//				if (i>=j) {
-		//					System.out.print("* "); 	
-		//				}
-		//				else
-		//					System.out.print(" ");
-		//
-		//			}
-		//			System.out.println();
-		//		}
+				for(int i=n;i>=0;i--) {
+					for(int j=n;j>0;j--) {
+						if (i>=j) {
+							System.out.print("* "); 	
+						}
+						else
+							System.out.print(" ");
+		
+					}
+					System.out.println();
+				}
 		//=================================================================================		 
 		for(int i=1;i<=n;i++) {
 			for(int k=1;k<=i;k++) {
