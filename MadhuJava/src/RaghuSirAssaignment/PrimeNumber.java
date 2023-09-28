@@ -16,9 +16,9 @@ public class PrimeNumber {
 		int n=sc.nextInt();
 		boolean rs=isPrimeNumber(n);
 		if(rs==true)
-			System.out.println(rs+" is a prime number");
+			System.out.println(n+" is a prime number");
 		else
-			System.out.println(rs+" is not a primr number");
+			System.out.println(n+" is not a primr number");
 		
 	}
 }
